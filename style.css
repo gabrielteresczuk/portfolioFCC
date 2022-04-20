@@ -149,7 +149,7 @@ padding-left: 10px;
 
 .grilla{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 .card_cont{
@@ -188,13 +188,18 @@ padding-left: 10px;
     flex-direction: column;
     justify-content: flex-end;
     padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0.8) 0%, rgba(0,0,0,0.5) 5%, rgba(255,255,255,0) 25%);
 }
 .card h2{
     font-size: 18px;
     color: white;
+    text-shadow: 1px 1px 3px #424242;
+
 }
 .card p{
     color:#E0E0E0;
+    text-shadow: 1px 1px 3px #424242;
 }
 /*FIN MAIN*/
 
@@ -271,7 +276,7 @@ padding-left: 10px;
 
     border-radius: 50%;
     display: inline-block;
-    background-image: url(img/test.jpg);
+    background-image: url(img/perfil.png);
     background-size: cover;
 }
 .footer_texto{
